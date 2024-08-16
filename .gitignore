@@ -1,0 +1,22 @@
+# Files to ignore
+
+# Untracked file
+ignore_file.txt
+# A tracked file to ignore:
+ignore_tracked_file.txt
+
+# Another files to ignore
+
+.DS_Store
+*.zip
+*.gz
+log/*.log
+# Using regular expressions
+log/*.log.[0-9]
+# Ignore all the files in the photoshop folder
+assets/photoshop/
+# Ignore all the file in the videos folder
+assets/videos/
+assets/
+resources/
+._*
